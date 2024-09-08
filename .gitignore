@@ -22,3 +22,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Model weights
+mammut_vqa_model/
+cpu/
+*.zip

@@ -29,7 +29,7 @@ import tensorflow_text  # pylint:disable=unused-import
 np.set_printoptions(precision=3)
 
 _SAVED_MODEL_PATH = flags.DEFINE_string(
-    'saved_model_path', './checkpoints/mammut_retrieval_model',
+    'saved_model_path', './checkpoints/cpu',
     'Path to the saved model.')
 
 _IMAGE_TEXT_PAIRS = [
